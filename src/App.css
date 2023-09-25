@@ -1,0 +1,62 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;400;500;600;700;800;900&display=swap");
+
+#root {
+  /* max-width: 1290px; */
+  margin: 0 auto;
+  font-family: "M PLUS 2", "Bricolage Grotesque", Helvetica, Arial, sans-serif;
+  /* padding: 40px; */
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.sticky_header {
+  width: 100%;
+  height: 13vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #165b04;
+  box-shadow: 3px -5px 18px 4px #9e9e9e;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0b2803c3;
+    z-index: 100;
+    display: none;
+  }
+
+  .menu ul {
+    width: 15rem;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    right: 0;
+    z-index: 200;
+    background: #165b04;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show_menu {
+    display: block;
+  }
+}

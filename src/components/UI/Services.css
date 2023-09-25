@@ -1,0 +1,32 @@
+.services-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wid {
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.skill-section {
+  display: block;
+}
+
+.database {
+  width: 62px;
+}
+
+@media (min-width: 768px) {
+  .skill-section {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 3fr 3fr;
+  }
+}
+
+@media (min-width: 988px) {
+  .skill-section {
+    grid-template-columns: 3fr 3fr 3fr;
+  }
+}

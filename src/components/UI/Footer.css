@@ -1,0 +1,117 @@
+.footer {
+  background-color: #454545;
+  color: #fff;
+  width: 100%;
+  padding: 29px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.footer-logo p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-list {
+  margin: 18px 0;
+}
+
+.subscribe {
+  width: 50%;
+  margin: auto;
+}
+
+.social-icon:hover {
+  color: #86ed26;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  color: #c7c7c7;
+}
+
+.nav-item a:hover {
+  color: #56b106;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon input[type="text"] {
+  width: 87%;
+  padding: 10px 30px; /* Add padding for the icon */
+  margin-top: 10px;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  position: relative;
+}
+
+input[type="text"] {
+  background-color: #377101d1;
+}
+
+.input-with-icon i {
+  position: absolute;
+  right: 28px; /* Adjust the right position as needed */
+  top: 57%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.input-with-icon i:hover {
+  color: #56b106;
+}
+
+@media (min-width: 768px) {
+  .footer-wrapper {
+    display: grid;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 2fr 3fr 2fr 3fr;
+  }
+
+  .footer {
+    height: 35vh;
+  }
+}

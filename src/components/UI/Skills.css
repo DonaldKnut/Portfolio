@@ -1,0 +1,18 @@
+.skill-logo {
+  width: 68px;
+  margin: auto;
+}
+
+.skill-container {
+  border: 1px solid white;
+  margin: 18px 0;
+  padding: 17px;
+  /* background: #626262; */
+  border-radius: 13px;
+  /* box-shadow: 3px 4px 37px white; */
+}
+
+.h3 {
+  font-weight: bold;
+  margin: 11px 0;
+}

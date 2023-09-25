@@ -1,0 +1,131 @@
+#about {
+  text-align: left;
+  margin: 11px auto;
+  padding: 76px 1px;
+  width: 85%;
+}
+
+.name {
+  font-size: 28px;
+}
+
+.first-col-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.postfolio-btn:hover {
+  color: rgb(66, 146, 0);
+  text-decoration: underline;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-button {
+  font-family: inherit;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 6px 15px;
+  margin: 33px 0;
+  background: #848484;
+  color: white;
+  border-radius: 23px;
+}
+
+.content-right {
+  margin: 15px 0;
+}
+
+.my-button:hover {
+  background-color: #367003;
+  border-color: #367003;
+}
+
+.follow-handle {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quote {
+  margin-right: 9px;
+}
+
+.anchor {
+  color: rgb(66, 146, 0);
+}
+
+.fa-handshake {
+  margin-left: 6px;
+}
+
+.figure-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: block;
+}
+
+.social-icon {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transition: all 0.5s ease-in;
+}
+
+.social-icon:hover {
+  color: #357fc2;
+}
+
+/* .hero-subtitle {
+  width: 50%;
+} */
+
+.hero-image {
+  width: 429px;
+}
+
+.animated-text {
+  animation: slideFadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sub-container {
+  width: 100%;
+}
+
+@media (min-width: 887px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-image {
+    width: 679px;
+  }
+
+  .hero-subtitle {
+    width: 90%;
+  }
+}

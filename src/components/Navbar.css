@@ -1,0 +1,111 @@
+/* Navbar.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: #fff;
+  width: 85%;
+  margin: auto;
+}
+
+/* .sticky_header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 3px 3px -8px 3px #ddd;
+  z-index: 99;
+} */
+
+.nav_logo img {
+  width: 74px;
+  height: auto;
+}
+
+/* Style the menu list */
+.menu_list-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav_logo {
+  cursor: pointer;
+}
+
+.menu_list-items li {
+  margin-right: 20px;
+}
+
+.menu_list-items li i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.menu_list-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.menu_list-items li a:hover {
+  text-decoration: underline;
+}
+
+.custom-button {
+  background-color: #1e4f039d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  /* border: 1px solid #fff; */
+  border-radius: 32px;
+  transition: all 0.5s ease;
+}
+
+.custom-button:hover {
+  background-color: #2f8004;
+}
+
+.hamburger-menu {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.fa-brands {
+  margin-left: 8px;
+}
+
+.sec-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu_list-items {
+    display: none;
+  }
+
+  .menu-end {
+    display: none;
+  }
+
+  .sec-nav {
+    display: block;
+  }
+
+  .menu_list-items li {
+    margin: 20px;
+    font-size: 22px;
+  }
+}
