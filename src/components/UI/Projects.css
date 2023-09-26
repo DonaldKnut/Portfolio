@@ -1,0 +1,32 @@
+.portfolios {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-wrap {
+  flex-wrap: wrap;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.projects-bg {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000b3;
+}
+
+.projects {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 3fr 3fr;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    grid-template-columns: 3fr 3fr 3fr;
+  }
+}

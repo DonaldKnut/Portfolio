@@ -1,0 +1,10 @@
+.stack-icon {
+  width: 126px;
+  /* filter: grayscale(100%); */
+}
+
+.stacks-wrapper {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}

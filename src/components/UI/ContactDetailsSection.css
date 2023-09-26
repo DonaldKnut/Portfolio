@@ -1,0 +1,16 @@
+/* ContactDetailsSection.css */
+.ContactDetailsSection {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+.ContactDetailsSection h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ContactDetailsSection p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
