@@ -23,7 +23,7 @@ const Footer = () => {
             </span>
             <span className="social-icon">
               <a href="#">
-                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-instagram"></i>n
               </a>
             </span>
             <span className="social-icon">
