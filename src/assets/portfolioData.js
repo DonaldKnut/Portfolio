@@ -1,10 +1,10 @@
-import portfolioImg01 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-01.jpg";
-import portfolioImg02 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-02.jpg";
-import portfolioImg03 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-03.jpg";
-import portfolioImg04 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-04.jpg";
-import portfolioImg05 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-05.jpg";
-import portfolioImg06 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-06.jpg";
-import portfolioImg07 from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolio-07.jpg";
+import portfolioImg01 from "../assets/portfolio-01.jpg";
+import portfolioImg02 from "../assets/portfolio-02.jpg";
+import portfolioImg03 from "../assets/portfolio-03.jpg";
+import portfolioImg04 from "../assets/portfolio-04.jpg";
+import portfolioImg05 from "../assets/portfolio-05.jpg";
+import portfolioImg06 from "../assets/portfolio-06.jpg";
+import portfolioImg07 from "../assets/portfolio-07.jpg";
 
 const portfolios = [
   {

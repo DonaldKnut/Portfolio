@@ -7,7 +7,7 @@ import "aos/dist/aos.css"; // Import the AOS CSS
 import AOS from "aos"; // Import the AOS library
 import "aos/dist/aos.css";
 // Import AOS CSS
-import "/Users/user/Desktop/ibrah-portfolio/portfolio/src/components/fontawesome.js";
+import "../src/components/fontawesome.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

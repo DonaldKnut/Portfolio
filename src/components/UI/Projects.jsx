@@ -1,5 +1,5 @@
 import React from "react";
-import data from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolioData";
+import data from "../../assets/portfolioData";
 import "./Projects";
 
 const Projects = () => {

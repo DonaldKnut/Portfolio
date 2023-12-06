@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
-import data from "/Users/user/Desktop/ibrah-portfolio/portfolio/src/assets/portfolioData.js"; // Update the import path
+import data from "../../assets/portfolioData"; // Update the import path
 import "./Projects.css"; // Make sure to import your CSS file for Projects
 import Modal from "./Modal";
 
